@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="We are ready to work on a project of any complexity">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>navbar</title>
+</head>
+
+<body>
+    <!-- 
+        ul = Unorderd List 
+        li = list item 
+
+     -->
+    <!-- <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>
+            JS
+            <ul>
+                <li>Angulat</li>
+                <li>Reactjs</li>
+                <li>Vuejs</li>
+            </ul>
+        </li>
+     </ul> -->
+
+    <!-- 
+        reversed => Reverse The Ordering
+        start => Start from Position
+        type  => type Of ordering
+        value => same like start you add number you want started.
+    -->
+    <!-- 
+     <ol type="A">
+        <li>Name</li>
+        <li>Address</li>
+        <li>ID</li>
+     </ol> -->
+
+
+    <!-- 
+        dl =>  Description List.
+        dt =>  Description term.
+        dd =>  Description of the term.
+      -->
+
+    <!-- <dl>
+        <dt>HTML</dt>
+        <dd>language of the web </dd>
+        <dd>the first lang</dd>
+        <dt>CSS</dt>
+        <dd>language of the visuals </dd>
+     </dl> -->
+
+
+    <!-- 
+        thead
+        tbody
+        tfoot
+        tr => table Row.
+        td => table Data Cell.
+        th => table header last. 
+        td => colspan="2">dk</td>.
+        
+        -->
+    <!-- Start Navigation Bar -->
+    <header>
+        <form action="">
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="#">Safary</a>
+                </div>
+                <ul class="links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#ab">About</a></li>
+                    <li><a href="#po">Portfolio</a></li>
+                    <li><a href="#ts">Testimonials</a></li>
+                    <li><a href="#co">Contact</a></li>
+                </ul>
+
+                <a href="#" class="action-btn">Get Started</a>
+                <div class="toggle-btn"><i class="fa-solid fa-bars"></i>
+                </div>
+
+                <div class="dropdown-menu">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#ab">About</a></li>
+                    <li><a href="#po">Portfolio</a></li>
+                    <li><a href="#ts">Testimonials</a></li>
+                    <li><a href="#co">Contact</a></li>
+                </div>
+
+            </nav>
+        </form>
+        <div class="clearfix"> </div>
+
+    </header>
+    <!-- End Navigation Bar -->
+
+    <main id="hero" class="Home">
+
+        <h1>hello</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, odio? <strong> new word AK</strong>
+        </p>
+
+    </main>
+
+    <!--  section for Submit<section class="section2"> -->
+    <section id="ab" class="About">
+        <h2>What can us do for you?</h2>
+        <p>We are ready to work on a project of any complexity, whether it’s commercial or residential.</p>
+        <form class="account" action="" target="_blank">
+
+            <div>
+                <input name="user" type="text" placeholder=" First Name *" maxlength="20" minlength="10" required>
+                <input type="text" placeholder=" Last Name *" maxlength="20" minlength="10" required>
+            </div>
+            <div>
+                <input type="email" placeholder="Your Email *" required>
+                <input type="password" placeholder="Password *" required>
+            </div>
+            <div class="textar-cont">
+                <input class="area-text" type="textarea" placeholder="Reason for Contacting*" required>
+
+            </div>
+            <div class="text-cont">
+
+                <input class="area-text" id="url" type="url" placeholder="URL">
+            </div>
+            <div>
+                <input class="submit-a" type="submit" placeholder="Send '_-">
+
+            </div>
+        </form>
+    </section>
+
+    <section id="po" class="Portfolio">
+        <h2>Portfolio</h2>
+        <div class="po-div">
+            <figure>
+                <img src="pexels-lucas-andreatta-13347662.jpg" alt="">
+                <figcaption style="color:darkslaygreen;font-weight:normal;">
+                    Fig.1 - Monalisa, Self Portrait
+                </figcaption>
+            </figure>
+
+            <figure>
+
+                <img src="icelandjpg.jpg" alt="">
+                <figcaption style="color:darkslaygreen;font-weight:normal;">
+                    Fig.1 - Monalisa, Self Portrait
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="mountine.jpg" alt="">
+
+                <figcaption style="color:darkslaygreen;font-weight:normal;">
+                    Fig.1 - Monalisa, Self Portrait
+                </figcaption>
+            </figure>
+
+            <figure>
+
+                <img src="lavnd.jpg" alt="">
+                <figcaption style="color:darkslaygreen;font-weight:normal;">
+                    Fig.1 - Monalisa, Self Portrait
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="pexels-alex-andrews-3805983.jpg" alt="">
+                <figcaption style="color:darkslaygreen;font-weight:normal;">
+                    Fig.1 - Monalisa, Self Portrait
+                </figcaption>
+            </figure>
+
+            <figure>
+                <img src="pexels-trace-hudson-2613946.jpg" alt="">
+                <figcaption style="color:darkslaygreen;font-weight:normal;">
+                    Fig.1 - Monalisa, Self Portrait
+                </figcaption>
+            </figure>
+
+        </div>
+
+    </section>
+
+    <!-- section for tables  -->
+    <section id="ts" class="test-tables">
+        <div class="table-1">
+            <table border="1" width="90%">
+                <caption>
+                    Table Caption
+                </caption>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th cellspacing="25px">Name</th>
+                        <th>Points</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="5">Month</td>
+                    </tr>
+                    <tr>
+                        <td>Osama MOhamed</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>Sayeed MOhamed</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>Ahmed MOhamed</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>Eman MOhamed</td>
+                        <td>100</td>
+                    </tr>
+                </thead>
+
+                </tr>
+            </table>
+        </div>
+        <hr>
+        <div class="table-1">
+            <table border="1" width="100%">
+                <caption> Complex Table</caption>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Group</th>
+                        <th>Language</th>
+                        <th>Done</th>
+                        <th>Passed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="6">2022</td>
+                        <td rowspan="2">Elzero</td>
+                        <td>HTml</td>
+                        <td colspan="2">Yes</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td colspan="2">Yes</td>
+
+                    </tr>
+                    <tr>
+                        <td rowspan="4">Heroes</td>
+                        <td>JS</td>
+                        <td>Yes</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>PHP</td>
+                        <td colspan="2">Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>NO</td>
+                        <td>NO</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <hr>
+        <div class="table-1">
+            <table border="1" width="100%">
+                <caption> Complex Table</caption>
+                <thead>
+                    <tr>
+                        <th>Group</th>
+                        <th>Avatar</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Character</th>
+                        <th>Profile</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="3">Ninja</td>
+                        <td><img decoding="async" src="https://via.placeholder.com/40x40/F00/FFF" alt=""></td>
+                        <td>Osama Mohamed</td>
+                        <td>o1@nn.sa
+                            <hr>
+                            o2@nn.sa
+                        <td><a href="#">Profile</a></td>
+                        </td>
+                        <td>&copy;</td>
+                    </tr>
+                    <tr>
+                        <td><img decoding="async" src="https://via.placeholder.com/40x40/#000080/FFF" alt=""></td>
+                        <td>Shady Mohamed</td>
+                        <td>s@nn.sa</td>
+                        <td><a href="#">Profile</a></td>
+                        <td>&trade;</td>
+                    </tr>
+                    <tr>
+
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Monsters</td>
+                        <td><img decoding="async" src="https://via.placeholder.com/40x40/#041912/FFF" alt=""></td>
+                        <td>Mohamed Mohamed</td>
+                        <td>m@nn.sa</td>
+                        <td><a href="#">Profile</a></td>
+                        <td>&reg;</td>
+
+                    </tr>
+
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5">Total Members</td>
+                        <td>3</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+
+    </section>
+    <!-- start section for aside -->
+    <section id="co" class="aside-co">
+        <aside>
+            <h2>Categories</h2>
+            <ol>
+                <li>Subscribe To Holistic SEO Newsletter</li>
+                <li>Join 8000+ Marketers and Businessperson.</li>
+                <li>Be part of Holistic SEO Community. Enroll now, and connect to best</li>
+                <li>SEOs and Entrepreneurs for learning, and sharing.</li>
+                <li>Semantic SEO Course for Topical Authority</li>
+            </ol>
+
+            <!-- start audio scr -->
+            <audio controls autoplay loop muted>
+                <source src="Game Of Thrones Season 6 Episode 10 Music - Light of the Seven HD.mp3" type="audio/mpeg">
+                <source src="Logic & Rag'n'Bone Man - Broken People (from Bright The Album) [Official Lyric Video].mp3"
+                    type="audio/ogg">
+                <source src="Logic & Rag'n'Bone Man - Broken People (from Bright The Album) [Official Lyric Video].wav"
+                    type="audio/wav">
+                your Browser Doesn't Support Audio Tags
+            </audio>
+            <div class="video-view" >
+            <video src="https://videos.pexels.com/video-files/4460336/4460336-hd_1920_1080_25fps.mp4" controls autoplay  crossorigin playsinline muted poster="figcaption-html-tag.avif">
+                Your Browser Dose Not Support Video Tag
+            </video>
+        </div>
+            <!-- end audio scr -->
+        </aside>
+
+        <article class="article-aside">
+            <h2>HTML Currency Symbols, Currency Entities and ASCII Currency Character Code Reference</h2>
+            <p>
+                Need the copyright sign HTML code? Or the degrees Celsius HTML entity? Scroll on for dingbats, circled
+                numbers, script letter HTML codes, the angstrom sign, biohazard sign, alef symbol, HTML checkmark entity
+                and even a heavy black heart. And take a minute to browse Toptal’s professional designers’ blog, which
+                gives you the lowdown on the very latest design trends and news—along with in-depth tutorials and
+                technique posts to help you master the latest skills.</p>\
+                <div class="video-view">
+            <video  src="https://videos.pexels.com/video-files/4328786/4328786-uhd_3840_2160_25fps.mp4" controls autoplay  crossorigin playsinline muted poster="figcaption-html-tag.avif">
+                Your Browser Dose Not Support Video Tag
+            </video>
+        </div>
+        </article>
+    </section>
+    <!-- end section for aside -->
+    , , , , Subject
+
+    <!-- end article 3-->
+    <section class="imgslides-auto">
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 5</div>
+                <img src="pic/mountin.jpg" style="width:100%">
+                <div class="text">Caption Text</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 5</div>
+                <img src="lavnd.jpg" style="width:100%">
+                <div class="text">Caption Two</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 5</div>
+                <img src="pexels-trace-hudson-2613946.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <img src="pexels-lucas-andreatta-13347662.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="pexels-alex-andrews-3805983.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+    <!-- start section for zero test input  -->
+
+    <footer>
+        <div class="footer_x">
+            <h2>This is amazing, keep making amv's please!</h2>
+            <p>
+                <span></span>
+                Moments like these is when we got to knew what killua really is and how much he admires gon
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        const toggleBtn = document.querySelector('.toggle-btn')
+        const toggleBtnIcon = document.querySelector('.toggle-btn i')
+        const dropdownMenu = document.querySelector('.dropdown-menu')
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //jquery for toggle sub menws
+            $('.sub-btn').click(function () {
+                $(this).next('.sub-menu').slideToggle();
+                $(this).find('.dropdown').toggleClass('rotate');
+            });
+
+            //jquery for end collapse the sidebar
+            $('.menu-btn').click(function () {
+                $('.side-bar').addClass('active');
+                $('.menu-btn').css("visibility", "hidden")
+            });
+            $('.close-btn').click(function () {
+                $('.side-bar').removeClass('active');
+                $('.menu-btn').css("visibility", "visible")
+            });
+
+
+        });
+    </script>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2600); // Change image every 2 seconds
+        }
+    </script>
+
+</body>
+
+</html>
